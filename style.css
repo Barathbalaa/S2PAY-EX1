@@ -1,0 +1,58 @@
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+
+}
+
+form {
+  background: #f2f2f2;
+  border: 1px solid black;
+  padding: 30px;
+  max-width: 500px;
+  margin-left: 30%;
+}
+.pic{
+  width: 150px;
+  height: 75px;
+  margin-left: 30%
+}
+label, select {
+    display: block;
+    width: 100%;
+  }
+label {
+
+ padding: 10px 0;
+}
+label:first-child { padding-top: 0; }
+
+select {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+.side-by-side{
+
+display: flex; 
+}
+.part1{
+
+    margin: 10px;
+}
+.part2{
+    margin: 10px 50px;
+}
+.button {
+  background-color: lightblue; /* Green */
+  border-radius: 40px 40px 40px 40px;
+  padding: 10px;
+  text-align: center;
+  font-family: serif;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 38%;
+  cursor: pointer;
+}
+.body{
+  background-color: #9C70FF;
+}
